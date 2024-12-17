@@ -14,7 +14,7 @@ class GameOverScreen extends PositionComponent with TapCallbacks {
     // Desenha o fundo transparente
     add(RectangleComponent(
       size: size,
-      paint: Paint()..color = Colors.black.withOpacity(0.6),
+      paint: Paint()..color = Colors.black.withValues(),
     ));
 
     add(
